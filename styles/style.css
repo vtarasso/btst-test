@@ -1,11 +1,145 @@
-* {
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+      url("../fonts/Roboto-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+      url("../fonts/Roboto-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --accent-color: #f8f200;
+  --dark-color: #000000;
+  --text-color: #777777;
+  --highlighter-color:#52bedc;
+}
+
+html {
+  font-size: 10px;
   box-sizing: border-box;
 }
 
-.container-limit {
-  max-width: 1110px;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  min-width: 320px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
   width: 100%;
+}
+
+.container-limit {
+  max-width: 1140px;
+  padding: 0 15px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 24px 75px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #3F2AFF;
+  border-radius: 20px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header */
+.header {
+  background-color: #3F2AFF;
+}
+
+.header__container {
+  padding-top: 30px;
+  padding-bottom: 26px;
+  color: #ffffff;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__items {
+  gap: 56px;
+}
+
+.header__link {
+  font-size: 1.8rem;
+}
+
+/* hero */
+.hero {
+  padding: 15px 0;
+  color: #ffffff;
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.hero__content {
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 26px;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.hero__descr {
+  margin: 0;
+  margin-bottom: 64px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero__bg {
+  background-image: url("../images/hero-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
