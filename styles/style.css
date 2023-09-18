@@ -78,10 +78,19 @@ img {
 
 .section-title {
   margin: 0;
+  margin-bottom: 15px;
   margin-bottom: 16px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
+}
+
+.section-subtitle {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .flex {
@@ -199,4 +208,28 @@ img {
   font-weight: 700;
   line-height: 1.2;
   color: #666666;
+}
+
+/* tutors */
+.tutors {
+  color: #ffffff;
+  background-color: #212133;
+}
+
+.tutors__container {
+  padding-top: 75px;
+  padding-bottom: 73px;
+}
+
+.tutors__avatar {
+  margin-bottom: 25px;
+  border-radius: 24px 24px 0px 0px;
+  overflow: hidden;
+}
+
+.tutors__descr {
+  margin: 0;
+  min-width: 254px;
+  line-height: 1.5;
+  color: #85859B;
 }
