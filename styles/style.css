@@ -33,6 +33,12 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+.row>*  {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   min-width: 320px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -57,7 +63,6 @@ picture {
 
 .container-limit {
   max-width: 1140px;
-  padding: 0 15px;
 }
 
 .list-reset {
@@ -84,7 +89,6 @@ picture {
 
 .section-title {
   margin: 0;
-  margin-bottom: 16px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
@@ -108,8 +112,7 @@ picture {
 }
 
 .header__container {
-  padding-top: 30px;
-  padding-bottom: 26px;
+  padding: 28px 15px 27px;
   color: #ffffff;
 }
 
@@ -158,3 +161,50 @@ picture {
   background-repeat: no-repeat;
 }
 
+/* about-us */
+.about-us {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.about-us__top {
+  margin-bottom: 15px;
+  padding-left: 190px;
+  background-image: url("../images/about-us-pic.png");
+  background-repeat: no-repeat;
+  background-position: 15px 22px;
+}
+
+.about-us__title {
+  margin-bottom: 16px;
+}
+
+.about-us__descr {
+  margin: 0;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.about-us__text {
+  margin: 0;
+  padding: 20px 0;
+  padding-left: 110px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: 700;
+  background-position: left center;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+}
+
+.about-us__icon-eye {
+  background-image: url("../images/eye-circle.svg");
+}
+
+.about-us__icon-fingers {
+  background-image: url("../images/fingers.svg");
+}
+
+.about-us__icon-horn {
+  background-image: url("../images/horn.svg");
+}
