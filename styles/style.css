@@ -90,6 +90,10 @@ img {
   display: flex;
 }
 
+body.noscroll {
+  overflow: hidden;
+}
+
 /* header */
 .header {
   background-color: #3F2AFF;
@@ -111,6 +115,10 @@ img {
 
 .header__link {
   font-size: 1.8rem;
+}
+
+.header__burger {
+  display: none;
 }
 
 /* hero */
