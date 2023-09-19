@@ -97,6 +97,7 @@ img {
 
 .header__container {
   padding: 28px 15px 27px;
+  align-items: center;
   color: #ffffff;
 }
 
