@@ -52,13 +52,7 @@ a {
 }
 
 img {
-  width: 100%;
-  height: 100%;
-}
-
-picture {
-  display: block;
-  height: 100%;
+  max-width: 100%;
 }
 
 .container-limit {
@@ -208,3 +202,29 @@ picture {
 .about-us__icon-horn {
   background-image: url("../images/horn.svg");
 }
+
+/* tutors */
+.tutors {
+  padding-top: 76px;
+  padding-bottom: 72px;
+  color: #ffffff;
+  background-color: #212133;
+}
+
+.tutors__title {
+  margin-bottom: 24px;
+  padding-left: 8px;
+}
+
+.tutors__img {
+  border-radius: 22px 22px 0px 0px;
+  margin-bottom: 27px;
+}
+
+.tutors__descr {
+  margin: 0;
+  max-width: 330px;
+  line-height: 1.5;
+  color: #85859B;
+}
+
