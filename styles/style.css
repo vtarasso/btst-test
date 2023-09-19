@@ -225,7 +225,7 @@ img {
 }
 .courses {
   padding-top: 75px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .courses__title {
@@ -303,4 +303,59 @@ img {
 .courses__btn {
   padding: 21px 59px;
   font-size: 1.6rem;
+}
+
+/* footer */
+.footer__top {
+  background-color: #2e2b44;
+  padding: 28px 0;
+}
+
+.footer__items {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.footer__link--facebook {
+  background-image: url("../images/fb-logo.svg");
+}
+
+.footer__link--twitter {
+  background-image: url("../images/tw-logo.svg");
+}
+
+.footer__link--instagram {
+  background-image: url("../images/inst-logo.svg");
+}
+
+.footer__link--youtube {
+  background-image: url("../images/yt-logo.svg");
+}
+
+.footer__container {
+  padding-top: 5px;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #2E2B44;
+}
+
+.symbol {
+  color: #3f2aff;
 }
