@@ -1,0 +1,85 @@
+/* 768  */
+@media (max-width: 992px) {
+  .container-limit {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .header__container {
+    padding: 29px 38px 25px;
+  }
+
+  .hero__content {
+    padding-bottom: 119px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .hero__bg {
+    background-image: url("../images/hero-bg2.png");
+    background-size: 330px 350px;
+    background-position: center 103px;
+  }
+
+  /* about-us */
+  .about-us {
+    padding-bottom: 75px;
+  }
+
+  .about-us__top {
+    margin-bottom: 24px;
+    padding-left: 242px;
+    background-size: 213px 189px;
+  }
+
+  .about-us__text {
+    background-position: top left;
+    padding: 90px 0 0 0;
+  }
+
+  /* tutors */
+  .tutors {
+    padding-top: 75px;
+    padding-bottom: 24px;
+  }
+
+  .tutors__container .row .col-md-6 {
+    margin-bottom: 23px;
+  }
+
+  /* courses */
+  .courses__container {
+    padding: 0 24px;
+  }
+
+  .courses__card {
+    min-height: 556px;
+  }
+
+  .courses__card--1 {
+    background-image: url(../images/courses-1-md.jpg);
+  }
+
+  .courses__card--2 {
+    background-image: url(../images/courses-2-md.jpg);
+  }
+
+  .courses__card--3 {
+    background-image: url(../images/courses-3-md.jpg);
+  }
+
+  .courses__card--4 {
+    background-image: url(../images/courses-4-md.jpg);
+  }
+
+  .courses__time {
+    right: 10px;
+  }
+
+  .courses__btn {
+    padding: 21px 56px;
+  }
+}
