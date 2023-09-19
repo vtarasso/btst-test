@@ -47,6 +47,12 @@ a {
 
 img {
   width: 100%;
+  height: 100%;
+}
+
+picture {
+  display: block;
+  height: 100%;
 }
 
 .container-limit {
@@ -78,7 +84,6 @@ img {
 
 .section-title {
   margin: 0;
-  margin-bottom: 15px;
   margin-bottom: 16px;
   font-size: 40px;
   font-weight: 700;
@@ -153,83 +158,3 @@ img {
   background-repeat: no-repeat;
 }
 
-/* about-us */
-.about-us__container {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.about-us__picture {
-  background-image: url("../images/about-us-pic.png");
-  background-position: left center;
-  background-size: 160px 142px;
-  background-repeat: no-repeat;
-}
-
-.about-us__descr {
-  margin: 0;
-  line-height: 1.5;
-  color: #666666;
-}
-
-.about-us__top {
-  margin-bottom: 24px;
-}
-
-.about-us__wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
-.about-us__icon {
-  margin-right: 30px;
-  width: 80px;
-  height: 80px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.about-us__icon--eye {
-  background-image: url("../images/eye-circle.svg");
-}
-
-.about-us__icon--finger {
-  background-image: url("../images/fingers.svg");
-}
-
-.about-us__icon--horn {
-  background-image: url("../images/horn.svg");
-}
-
-.about-us__text {
-  max-width: 240px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #666666;
-}
-
-/* tutors */
-.tutors {
-  color: #ffffff;
-  background-color: #212133;
-}
-
-.tutors__container {
-  padding-top: 75px;
-  padding-bottom: 73px;
-}
-
-.tutors__avatar {
-  margin-bottom: 25px;
-  border-radius: 24px 24px 0px 0px;
-  overflow: hidden;
-}
-
-.tutors__descr {
-  margin: 0;
-  min-width: 254px;
-  line-height: 1.5;
-  color: #85859B;
-}
