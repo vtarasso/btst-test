@@ -170,6 +170,7 @@ body.noscroll {
 
 .about-us__title {
   margin-bottom: 16px;
+  color: #2e2b44;
 }
 
 .about-us__descr {
@@ -240,7 +241,7 @@ body.noscroll {
 .courses__title {
   margin-bottom: 23px;
   padding-left: 15px;
-  color: #212133;
+  color: #2e2b44;;
 }
 
 .courses__card {
